@@ -1,0 +1,159 @@
+/*PREMIERE PAGE*/
+
+/*En tete*/
+.logo{
+    display: flex;
+    justify-content:center;
+    height: 200px;}
+
+.slogan ul{
+    display: flex;
+    padding: 0px 0px 20px 0px;
+    justify-content: center;}
+    
+.slogan ul li {
+    font-family: cambria;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px 50px 0px 0px;
+    list-style: none;
+    color: rgb(42, 56, 183)}
+
+.slogan ul li a{
+    background-color: rgba(255, 255,255, 0.3);
+    border-radius: 4px;
+    padding: 10px;}
+    
+.slogans {
+    padding: 20px 360px 20px 360px; }
+
+header{
+    background-image: url(media/arriere.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;}
+
+h1{
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 37px;
+    text-align: center;
+    background-color: rgba(255, 255,255, 0.3);
+    border-radius: 4px;
+    color: rgb(42, 56, 183);
+    font-weight: 400;
+    margin: 10px 0px;}
+
+/*Résumé*/
+
+.résumé{
+    display: flex;
+    margin: 0 70px 0px 0px;}
+
+.para{
+    margin: 0px 30px 0px 0px;}
+
+.margin{
+    margin: 20px;
+}
+
+/*div qui regroupe la section climat et geo*/
+
+.climat{
+    display: flex;}
+
+.carte{
+    display: flex;
+    margin: 0px 30px 0px 0px;}
+
+.parag {
+    width: 500px;
+    margin: 0px 0px 0px 20px;}
+
+h2 {
+    font-family: Cambria;
+    color : rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(42, 56, 183, 0.6);
+    border-radius: 5px;
+    margin: 20px 200px 20px 200px;}
+
+
+
+p {
+    font-family: cambria;
+    text-align: justify;
+    font-size: 14px;}
+
+.photo{
+    display: inline;
+    margin: 0px 0px 0px 0px;;}
+
+/*DEUXIEME PAGE*/
+
+.fond{
+    background-color:  rgb(42, 56, 183);
+    margin: 20px 0px 45px 0px;
+    width: 1254px; height: 350px;}
+    
+
+.lieu{
+    display: flex;
+    justify-content:space-around;}
+
+h3{
+    font-family: cambria;
+    color: white;
+    text-align: center;}
+
+.center {
+    display: flexbox;
+    padding: 0px 230px 0px 230px;}
+
+    
+    
+
+/*TROISIEME PAGE*/
+
+h4{
+    font-family: cambria;
+    color: white;
+    width: 330px;
+    height: 55px;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;}
+
+/*QUATRIEME PAGE*/
+
+.sport{
+    display: flex;
+    justify-content: space-around;}
+
+.photos{
+    display: flex;
+    justify-content: space-around;}
+
+.text{
+    display: flex;
+    justify-content: space-around;}
+
+.lien{
+    display: flex;
+    justify-content: space-around;
+    font-family: cambria;}
+
+h5{
+    font-family: cambria;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0px 0px 0px;}
+
+.act{
+    border: 1px solid rgba(42, 56, 183, 0.6);
+    padding: 4px;}
+
+ /* test */
+ .test {
+     border: solid 1px rgb(190, 30, 45);}
